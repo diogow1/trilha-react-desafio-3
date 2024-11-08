@@ -23,9 +23,14 @@ export const Column = styled.div`
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 20px; 
+    font-family: 'Arial';
+`
+
+export const Span = styled.span`
+    padding-right: 5px;
+    font-size: 15px;
 `
 
 
@@ -52,6 +57,7 @@ export const TitleLogin = styled.p`
 `
 
 export const SubtitleLogin = styled.p`
+    padding-top: 20px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
